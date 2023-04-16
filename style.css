@@ -272,11 +272,12 @@ section{
 
 }
 .section-container{
-    gap: 7rem;
+    gap: 4rem;
     height: 80%;
     
 
 }
+
 .section__pic-container{
     height: 400px;
     width: 400px;
@@ -285,16 +286,16 @@ section{
 .about-details-container{
     display: flex;
     flex-wrap: wrap;
+    /* max-width: 526px; */
     justify-content: center;
     align-items: center;
     align-self: center;
+    
 
-}
-.text-container{
-    width: fit-content;
 }
 .text-container p{
     font-weight: 200rem;
+    text-align: justify;
 }
 
 /* Skills */
@@ -375,8 +376,8 @@ article h3{
   
   .project-img {
     border-radius: 2rem;
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
   }
   
   .project-title {
