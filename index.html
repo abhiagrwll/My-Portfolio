@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Abhinav Agrawal</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <nav id="hamburger-nav">
+        <div class="logo">Abhinav Agrawal</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="aAbout" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Images/profile (2).png" alt="profile-picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello,I'M</p>
+            <h1 class="title">ABHINAV</h1>
+            <p class="section__text__p2">FRONTEND DEVELOPER</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open=('#')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href=('./#contact')">Contact Me</button>
+            </div>
+            <div id="social-container">
+                <a href="https://www.linkedin.com/in/abhinav-agrawal11/" target="_blank"><img src="./Images/linkedin.png" alt="My Linkedin" class="icon" ></a>
+                <a href="https://github.com/abhiagrwll" target="_blank"><img src="./Images/github.png" alt="My Github" class="icon"></a>
+                <a href="https://instagram.com/abhinav.a_?igshid=YmMyMTA2M2Y=" target="_blank"><img src="./Images/instagram.png" alt="My Instagram" class="icon"></a>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About  Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Images/about.png" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+               <div class="text-container">
+                <p>
+                    I am Abhinav Agrawal, a second-year student pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning from GLA University. My passion lies in building visually appealing and functional applications using programming languages like C, Java, and Python. I am proficient in Android Studio and frontend development, and I am always eager to learn and explore new ideas. I am a curious, creative, and driven individual committed to making a positive impact on the world through my work.
+                </p>
+               </div>
+            </div>
+        </div>
+        <img src="./Images/arrow.png" alt="arrow" onclick="location.href='./#experience'" class="arrow">
+    </section>
+
+
+
+
+
+
+    <section id="experience">
+        <p class="section__text__p1">
+            Explore My
+        </p>
+        <h1 class="title">
+            SKILLS
+        </h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <div class="article-container">
+                        <article>
+                            <img src="./Images/html.png" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/css-3.png" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/java-script.png" class="icon">
+                            <div>
+                                <h3>JAVA SCRIPT</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/java.png" class="icon">
+                            <div>
+                                <h3>JAVA</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/c.png" class="icon">
+                            <div>
+                                <h3>C</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/python.png" class="icon">
+                            <div>
+                                <h3>PYTHON</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/android-logo.png" class="icon">
+                            <div>
+                                <h3>ANDROID STUDIO</h3>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Images/arrow.png" alt="arrow" onclick="location.href='./#projects'" class="arrow">
+    </section>
+
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">PROJECTS</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                    <img src="./Images/html.png" alt="project1" class="project-img">
+
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                    <button class="btn btn-color-1" onclick="location.href='https://github.com/'">Github</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Images/html.png" alt="project2" class="project-img">
+
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-1" onclick="location.href='https://github.com/'">Github</button>
+                </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="./Images/arrow.png" alt="arrow" onclick="location.href='./#contact'" class="arrow">
+
+    </section>
+
+
+    <section id="contact">
+        <p class="section__text__p1">
+            Get In Touch
+        </p>
+        <h1 class="title">
+            Contact Me
+        </h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Images/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:abhi.agrwl11@gmail.com">abhi.agrwl11@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Images/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/abhinav-agrawal11/" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <centre><img src="./Images/upward.png" alt="arrow" onclick="location.href='./#profile'" class="arrow-footer"></centre>
+
+
+        
+         
+            
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
