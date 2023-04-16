@@ -290,6 +290,9 @@ section{
     align-self: center;
 
 }
+.text-container{
+    width: fit-content;
+}
 .text-container p{
     font-weight: 200rem;
 }
